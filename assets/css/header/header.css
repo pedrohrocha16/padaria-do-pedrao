@@ -1,0 +1,6 @@
+.header {
+    background: whitesmoke ;
+    display: flex;
+    height: 60px;
+    width: 100%;  
+}

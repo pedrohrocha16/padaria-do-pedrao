@@ -1,0 +1,12 @@
+.header__link {
+    color: black;
+    font-size: 13px;
+    font-weight: 200;
+    text-decoration: none;
+}
+.header__link:hover {
+    color: rgb(182, 156, 12);
+    font-size: 15px;
+    font-weight: bold;
+    transition: 2ms;
+} 

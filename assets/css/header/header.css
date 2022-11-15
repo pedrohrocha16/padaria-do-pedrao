@@ -1,6 +1,18 @@
 .header {
     background: whitesmoke ;
     display: flex;
-    height: 60px;
     width: 100%;  
+}
+@media screen and (min-width: 0){
+    .header {
+        height: 70px;
+    }
+
+}
+
+@media screen and (min-width: 768px){
+    .header {
+        height: 60px;
+    }
+
 }

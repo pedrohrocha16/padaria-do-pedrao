@@ -1,5 +1,17 @@
 .imagensPrincipal__descricao {
-    font-family: 'Lobster', cursive;
-    font-size: 22px;
+    color: rgb(182, 156, 12);
     padding: 25px 0 20px 0px;
+}
+@media screen and (min-width:0){
+    .imagensPrincipal__descricao{
+        font-family: 'Acme', sans-serif;   
+        font-size: 16px;
+        font-weight: 100; 
+    }
+}
+@media screen and (min-width: 768px){
+    .imagensPrincipal__descricao{
+        font-family: 'Lobster', cursive;
+        font-size: 25px;
+    }
 }

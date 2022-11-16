@@ -1,17 +1,41 @@
-.banner {
-    
+.banner {   
     width: 100%;
 }
+.banner__pags {
+    width: 100%;
+}
+.banner__titulo {
+    color: rgb(255, 255, 255);
+    font-family: 'Lobster', cursive;
+    position: absolute;
+    text-align: center;
+    text-shadow: 9px -6px 8px black;
+}
+
 @media screen and (min-width: 0){
     .banner {
-        height: 350px;
+        height: 310px;
     }
-
+    .banner__pags {
+        height: 310px;
+    }
+    .banner__titulo{
+        font-size: 44px;
+        left: 10%;
+        top: 32%;
+    }
 }
 
 @media screen and (min-width: 768px){
     .banner {
-        height: 550px;
+        height: 460px;
     }
-
+    .banner__pags {
+        height: 460px;
+    }
+    .banner__titulo{
+        font-size: 85px;
+        left: 30%;
+        top: 35%;
+    }
 }

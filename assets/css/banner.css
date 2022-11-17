@@ -11,6 +11,11 @@
     text-align: center;
     text-shadow: 9px -6px 8px black;
 }
+.banner__titulo2{
+    font-family: 'Lobster', cursive;
+    position: absolute;
+    text-align: center;
+}
 
 @media screen and (min-width: 0){
     .banner {
@@ -20,22 +25,38 @@
         height: 310px;
     }
     .banner__titulo{
+        color: rgb(255, 255, 255);
         font-size: 44px;
-        left: 10%;
-        top: 32%;
+        left: 15%;
+        top: 19%;
     }
+    .banner__titulo2{
+        color: rgb(255, 255, 255);
+        font-size: 44px;
+        left: 15%;
+        text-shadow: -3px 5px 2px black;
+        top: 30%;
+    }
+
 }
 
 @media screen and (min-width: 768px){
     .banner {
-        height: 460px;
+        height: 560px;
     }
     .banner__pags {
-        height: 460px;
+        height: 560px;
     }
     .banner__titulo{
         font-size: 85px;
         left: 30%;
         top: 35%;
+    }
+    .banner__titulo2 {
+        color: rgb(212 229 209);
+        font-size: 105px;
+        left: 25%;
+        text-shadow: -9px -1px 3px black;
+        top: 50%;
     }
 }

@@ -1,0 +1,15 @@
+.formulario__send{
+    background: rgb(233, 218, 131);
+    border: 1px solid rgb(233, 218, 131);
+    border-radius: 30px;
+    color: black;
+    cursor: pointer;
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+}
+.formulario__send:hover{
+    background: rgb(252, 216, 25);
+    border: rgb(252, 216, 25);
+    font-size: 27px;
+    transition: 1s;
+}

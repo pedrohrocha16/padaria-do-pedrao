@@ -7,9 +7,10 @@
         <link rel="icon" href="assets\img\icon.png" type="img/x-icon">
         <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="assets\css\reset.css">
         <link rel="stylesheet" href="assets\css\normalize.css">
-        <title>Produtos - Padaria do Pedrão</title>
+        <title>Trabalhe Conosco - Padaria do Pedrão</title>
 
         <link rel="stylesheet" href="assets\css\body.css">
         <link rel="stylesheet" href="assets\css\header\header.css">
@@ -22,13 +23,12 @@
         <link rel="stylesheet" href="assets\css\rodape\rodape.css">
         <link rel="stylesheet" href="assets\css\rodape\rodape-imagem.css">
         <link rel="stylesheet" href="assets\css\rodape\rodape-descricao.css">
-        <link rel="stylesheet" href="assets\css\produtos\produtos.css">
-        <link rel="stylesheet" href="assets\css\produtos\produtos-ul.css">
-        <link rel="stylesheet" href="assets\css\produtos\produtos-li.css">
-        <link rel="stylesheet" href="assets\css\produtos\produtos-img.css">
-        <link rel="stylesheet" href="assets\css\produtos\produtos-descricao.css">
-
-
+        <link rel="stylesheet" href="assets\css\formulario\formulario.css">
+        <link rel="stylesheet" href="assets\css\formulario\formulario-send.css">
+        <link rel="stylesheet" href="assets\css\formulario\formulario-select.css">
+        <link rel="stylesheet" href="assets\css\formulario\formulario-nome.css">
+        <link rel="stylesheet" href="assets\css\formulario\formulario-input.css">
+        <link rel="stylesheet" href="assets\css\titulo-trabalheconosco.css">
     </head>
 
     <body class="body">
@@ -42,29 +42,29 @@
             </ul>
         </header>
         <section>  
-            <img class="banner__pags" src="assets\img\banner-2.jpg" alt="banner-principal">
-            <h2 class="banner__titulo">Nossos Produtos</h2>
+            <img class="banner__pags" src="assets\img\trabalhe conosco.jpg" alt="banner-principal">
+            <h2 class="banner__titulo2">Trabalhe Conosco</h2>
         </section>
-        <section class="produtos">
-            <ul class="produtos__ul">
-                <li class="produtos__li">
-                    <p class="produtos__descricao">Biscoitos, broas e pães de queijo</p>
-                    <img class="produtos__img1" src="assets\img\biscoitos.png" alt="biscoitos">   
-                </li>
-                <li class="produtos__li">
-                    <p class="produtos__descricao">Pães tradicionais</p>
-                    <img class="produtos__img" src="assets\img\pães.png" alt="pães">                    
-                </li>
-                <li class="produtos__li">
-                    <p class="produtos__descricao">Bolos e roscas (vários sabores)</p>
-                    <img class="produtos__img" src="assets\img\roscas.png" alt="roscas">
-                </li>
-                <li class="produtos__li">
-                    <p class="produtos__descricao">Salgados</p>
-                    <img class="produtos__img" src="assets\img\salgados.png" alt="salgados">                  
-                </li>
-            </ul>
-       </section>
+            <h3 class="titulo-trabalheconosco">Preencha o formulário abaixo:</h3>
+
+        <form class="formulario">
+            <section>
+                <label for="nome" class="formulario__nome">Nome completo:</label>
+                <input type="text" id="nome" class="formulario__input" required>
+
+                <label for="telefone" class="formulario__nome">Telefone:</label>
+                <input type="tel" id="telefone" class="formulario__input" required placeholder="(XX) X XXXX-XXXX">
+
+                <label for="e-mail" class="formulario__nome">E-mail:</label>
+                <input type="email" id="e-mail" class="formulario__input" required placeholder="seuemail@dominio.com">
+            </section> 
+            <section>   
+                <label class="formulario__nome">Currículo:</label>
+                <input type="file" class="formulario__select" required>
+
+            <input type="submit" id="enviar-dados" class="formulario__send" value="Enviar Dados">
+            </section>
+        </form>    
         <footer class="rodape">
             <img class="rodape__imagem" src="assets\img\rodape-img.png" alt="icon">
             <p class="rodape__descricao">&#169;Padaria do Pedrão 2022 - Patos de Minas - MG</p>

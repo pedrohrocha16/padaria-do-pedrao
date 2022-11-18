@@ -60,9 +60,9 @@
         color: rgb(241 241 241);
         font-family: 'Pacifico', cursive;
         font-size: 45px;
-        left: 6%;
+        left: 5%;
         text-shadow: -2px 7px 3px black;
-        top: 25%;
+        top: 22%;
     }
 }
 @media screen and (min-width: 768px){

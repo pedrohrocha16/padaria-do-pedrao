@@ -5,12 +5,12 @@
 }
 @media screen and (min-width:0){
     .imagensPrincipal__descricao{  
-        font-size: 16px;
+        font-size: 20px;
         font-weight: 100;
     }
 }
 @media screen and (min-width: 768px){
     .imagensPrincipal__descricao{
-        font-size: 25px;
+        font-size: 30px;
     }
 }

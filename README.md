@@ -18,7 +18,7 @@ Inspirado na ideia de criar um site para uma padaria, o projeto abrange diversas
 
 ## Como Usar
 
-1. Clone o repositório: `git clone https://github.com/pedrohrocha16/padaria_do_pedrao.git`
+1. Clone o repositório: `git clone https://github.com/pedrohrocha16/padaria-do-pedrao.git`
 2. Abra o arquivo `index.html` em seu navegador.
 
 ## Personalização
